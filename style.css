@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    height: 75px;
+    width: 100vw;
+    color: white    ;
+    /* background-color:    red; */
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+}
+.other{
+    display: flex;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: larger;
+    
+
+}
+.cc{
+    width: 80%;
+}
+.c1{
+    width: 18rem;
+}
+
+nav div{
+    margin: 10px;
+    
+
+}
+.name{
+    margin-left: 40px;
+    font-size: xx-large;
+}
+section{
+    width: 90vw;
+    /* height: 50vh; */
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* justify-content: cen ter; */
+    /* align-items: center; */
+    
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.detail{
+    width: 50%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    left: 10%;
+}
+.heading{
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-left: none;
+    color: white;
+}
+.info{
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: bold;
+    min-width: 450px;
+    color: black;
+    margin-top: 30px;
+
+}
+.bt{
+    
+    font-weight: bold;
+    color: white;
+    box-sizing: border-box;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(125, 233, 125, 0.584);
+    box-shadow: 0px 0px 12px 6px black;
+    height: 60px;
+    margin-top: 60px;
+    cursor: pointer;
+    /* margin-top: 30px; */
+    
+}
+.types{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.types > div{
+    margin: 10px;
+}
+.setcar{
+    width: 80%;
+    margin: 10px auto;
+    /* height: 50%; */
+}
+.side{
+    margin-bottom: 0px;
+}
+@media (max-width:1388px) {
+    .heading{
+        font-size: 6vw;
+        
+    }
+}
+@media (max-width:880px) {
+    .heading{
+        font-size: 8vw;
+        
+    }
+    .info{
+        font-size: 1.5rem;
+        flex-shrink: 1;
+    }
+}
+@media (max-width:580px) {
+    .bg{
+        width: 100vw;
+    }
+    nav{
+        width: 100%;
+    }
+    .types{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+    }
+    .c1{
+        width: 100%;
+    }
+    .cc{
+        width: 80%;
+        margin-left: 40px;
+    }
+}
+/* Import Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.footer {
+  background: #303233;
+  color: #e8e6e6;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 4px solid #bcd4e6;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #3a506b;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section form {
+  font-size: 0.95rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #040404;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #0077b6;
+}
+
+.footer-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section input[type="email"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.footer-section button {
+  padding: 10px;
+  border: none;
+  background-color: #3a86ff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-section button:hover {
+  background-color: #265dca;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #3a506b;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b6;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+.cc{
+    width: 60%;
+}
