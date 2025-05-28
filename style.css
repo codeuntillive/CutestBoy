@@ -130,32 +130,7 @@ section{
         flex-shrink: 1;
     }
 }
-@media (max-width:580px) {
-    .bg{
-        width: 100%;
-    }
-    nav{
-        width: 100%;
-    }
-    .types{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 80vw;
-    }
-    .c1{
-        width: 100%;
-    }
-    .cc{
-        width: 80%;
-        margin-left: 40px;
-    }
-    .info{
-        font-size: small;
-        flex-shrink: 1;
-    }
-}
+
 /* Import Font Awesome for icons */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
@@ -252,4 +227,33 @@ section{
 }
 .cc{
     width: 60%;
+}
+@media (max-width:580px) {
+  .bg{
+      width: 120%;
+  }
+  nav{
+      width: 100%;
+  }
+  .types{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80vw;
+  }
+  .c1{
+      width: 100%;
+  }
+  .cc{
+      width: 80%;
+      margin-left: 40px;
+  }
+  .info{
+    font-size: 9px;
+    flex-shrink: 1;
+}
+.footer{
+  width: 115%;
+}
 }
